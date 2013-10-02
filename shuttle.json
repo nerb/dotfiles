@@ -1,0 +1,46 @@
+{
+	"_comment": "Valid terminals include: 'Terminal.app' or 'iTerm'",
+	"terminal": "iTerm",
+	"hosts": [
+		{
+			"name": "My Dev Server",
+			"cmd": "ssh username@dev.example.com"
+		},
+		{
+			"Personal": [
+				 {
+					 "name": "My blog",
+					 "cmd": "ssh username@blog.example.com"
+				 }
+			 ]
+		},
+		{
+			"Work": [
+				  {
+					"name": "Pufferino - XFwd",
+					"cmd": "ssh -Y bren@pufferino.aja.com"
+				  },
+				{
+					"name": "Orwell",
+					"cmd": "ssh bren@orwell.aja.com"
+				},
+				{
+					"name": "WWW",
+					"cmd": "ssh bren@www.aja.com -p 94"
+				},
+				{
+					"name": "Intranet",
+					"cmd": "ssh bren@intranet.aja.com"
+				}
+			]
+		},
+		{
+			"Vagrant": [
+				{
+					"name": "precise32",
+					"cmd": "ssh vagrant@127.0.0.1 -p 2222 -i ~/.vagrant.d/insecure_private_key"
+				}
+			]
+		}
+	]
+}

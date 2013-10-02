@@ -1,0 +1,10 @@
+[user]
+	name = Bren Smith
+	email = bren@lene.com
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = vim
+	excludesfile = /Users/bren/.gitignore
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
